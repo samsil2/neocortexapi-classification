@@ -18,7 +18,9 @@ For Example, **"01/01/2016 01:01:01"** our input will be like this. Then from th
 After comparing different bitmap images like this, we’ll get a table of min. max, & avg. comparison value, like given below
 
 <img src="comparison.jpg" alt="drawing" width="250"/>
-## Acknowledgments
+
+Acknowledgments
+----------------
 1. Neocortexapi-classification
 2.	NeoCortexApi
 3.	FUAS-SE-Cloud-2021-2022 colleagues

@@ -49,7 +49,7 @@ namespace NeoCortex
         /// <param name="text">Text to be written.</param>
         public static void DrawBitmap(int[,] twoDimArray, int width, int height, String filePath, string monthName,int idx, string text = null)
         {
-            DrawBitmap(twoDimArray, width, height, filePath, Color.Black, Color.Green,monthName,idx, text);
+            DrawBitmap(twoDimArray, width, height, filePath, Color.Black, Color.White,monthName,idx, text);
         }
 
         /// <summary>
@@ -143,7 +143,7 @@ namespace NeoCortex
         /// <param name="filePath"></param>
         /// <param name="bmpWidth"></param>
         /// <param name="bmpHeight"></param>
-        public static void DrawBitmaps(List<int[,]> twoDimArrays, String filePath, int bmpWidth = 1024, int bmpHeight = 1024)
+        public static void DrawBitmaps(List<int[,]> twoDimArrays, String filePath, int bmpWidth = 1024, int bmpHeight = 128)
         {
             DrawBitmaps(twoDimArrays, filePath, Color.DarkGray, Color.Yellow, bmpWidth, bmpHeight);
         }
@@ -227,8 +227,8 @@ namespace NeoCortex
         /// Values higher than this value transforms to red.</param>
         /// <param name="redStart">Values higher than this value are by default red. Values lower than this value transform to yellow.</param>
         public static void DrawHeatmaps(List<double[,]> twoDimArrays, String filePath,
-            int bmpWidth = 1024,
-            int bmpHeight = 1024,
+            int bmpWidth = 128,
+            int bmpHeight = 128,
             decimal redStart = 200, decimal yellowMiddle = 127, decimal greenStart = 20)
         {
             int widthOfAll = 0, heightOfAll = 0;

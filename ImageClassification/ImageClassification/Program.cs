@@ -27,7 +27,7 @@ void execute(string inp,string monthName,int idx)
     //Debug.WriteLine(NeoCortexApi.Helpers.StringifyVector(expectedOutput));
     int[,] twoDimenArray = ArrayUtils.Make2DArray<int>(result, 32, 32);
     int[,] twoDimArray = ArrayUtils.Transpose(twoDimenArray);
-    NeoCortex.NeoCortexUtils.DrawBitmap(twoDimArray, 1024, 1024, $"DateTime_out_{inp.ToString().Replace("/", "-").Replace(":", "-")}_32x32-N-{encoderSettings["DateTimeEncoder"]["N"]}-W-{encoderSettings["DateTimeEncoder"]["W"]}.png",monthName,idx);
+    NeoCortex.NeoCortexUtils.DrawBitmap(twoDimArray, 128, 128, $"DateTime_out_{inp.ToString().Replace("/", "-").Replace(":", "-")}_32x32-N-{encoderSettings["DateTimeEncoder"]["N"]}-W-{encoderSettings["DateTimeEncoder"]["W"]}.png",monthName,idx);
 }
 
 string[] monthName = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
@@ -38,7 +38,7 @@ for (int i = 0; i < 4; i++)
 {
 
     Console.WriteLine("Please give Date & Time input for " + monthName[i]);
-    for(int j= 0; j < 4; j++)
+    for(int j= 0; j < 1; j++)
     {
 
         inp = Console.ReadLine();

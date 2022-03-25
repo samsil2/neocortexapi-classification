@@ -32,13 +32,13 @@ void execute(string inp,string monthName,int idx)
 
 string[] monthName = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
 // Getting the list of args from the command line
-string inp;
+string inp;  
 
-for (int i = 0; i < 4; i++)
+for (int i = 0; i < 12; i++)
 {
 
     Console.WriteLine("Please give Date & Time input for " + monthName[i]);
-    for(int j= 0; j < 1; j++)
+    for(int j= 0; j < 4; j++)
     {
 
         inp = Console.ReadLine();

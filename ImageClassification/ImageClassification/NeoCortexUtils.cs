@@ -143,7 +143,7 @@ namespace NeoCortex
         /// <param name="filePath"></param>
         /// <param name="bmpWidth"></param>
         /// <param name="bmpHeight"></param>
-        public static void DrawBitmaps(List<int[,]> twoDimArrays, String filePath, int bmpWidth = 1024, int bmpHeight = 128)
+        public static void DrawBitmaps(List<int[,]> twoDimArrays, String filePath, int bmpWidth = 128, int bmpHeight = 128)
         {
             DrawBitmaps(twoDimArrays, filePath, Color.DarkGray, Color.Yellow, bmpWidth, bmpHeight);
         }
@@ -158,7 +158,7 @@ namespace NeoCortex
         /// <param name="activeCellColor">Color of active bit.</param>
         /// <param name="bmpWidth">The width of the bitmap.</param>
         /// <param name="bmpHeight">The height of the bitmap.</param>
-        public static void DrawBitmaps(List<int[,]> twoDimArrays, String filePath, Color inactiveCellColor, Color activeCellColor, int bmpWidth = 1024, int bmpHeight = 1024)
+        public static void DrawBitmaps(List<int[,]> twoDimArrays, String filePath, Color inactiveCellColor, Color activeCellColor, int bmpWidth = 128, int bmpHeight = 128)
         {
             int widthOfAll = 0, heightOfAll = 0;
 

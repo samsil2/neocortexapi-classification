@@ -1,6 +1,5 @@
 # Project Title
 ML21/22-1.2.Analyse Image Classification (Use Encoder Output Images)
-## Team Name
 Acroaticus
 ## Project Directory Guide
 * ./MyProject/ImageClassification

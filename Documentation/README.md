@@ -1,11 +1,7 @@
 # Project Title
 ML21/22-1.2.Analyse Image Classification (Use Encoder Output Images)
-<<<<<<< HEAD
 ## Team Name
 Acroaticus
-=======
-
->>>>>>> 0270035ff3495d81123c35d8325cfd8a6dc6b595
 ## Project Directory Guide
 * ./MyProject/ImageClassification
     This directory has our Final Project codes [Final Project Codes](https://github.com/Niloy-Sarker96/neocortexapi-classification/tree/Team_Acroaticus)

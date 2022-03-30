@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD:MySEProject/ImageClassification/ImageClassification/ImageClassification.csproj
+    <Compile Remove="InputFolder\Date Time Encoder output Images\**" />
+    <EmbeddedResource Remove="InputFolder\Date Time Encoder output Images\**" />
+    <None Remove="InputFolder\Date Time Encoder output Images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+=======
+>>>>>>> 0270035ff3495d81123c35d8325cfd8a6dc6b595:ImageClassification/ImageClassification/ImageClassification.csproj
     <Compile Remove="MainPreProcessing.cs" />
   </ItemGroup>
 

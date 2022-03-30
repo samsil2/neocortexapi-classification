@@ -5,6 +5,7 @@ using NeoCortexApi.Network;
 using NeoCortexApi.Utility;
 using Daenet.ImageBinarizerLib;
 using Daenet.ImageBinarizerLib.Entities;
+using System.Drawing;
 
 namespace ConsoleApp
 {
@@ -92,7 +93,7 @@ namespace ConsoleApp
 
                     inputsPath[folderName].Add(filePath);
 
-                    // Image binarization
+                    Image binarization;
                     int[] inputVector = ReadImageData(filePath, height, width);
                     binaries.Add(filePath, inputVector);
 
